@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="icon" href="./assets/logo.png"/>
+    <title>Spotify - web player: Music for everyone</title>
+    <link rel="stylesheet" href="stylesheet.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png"/>
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-boxes">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+           <div class="sticky-nav">
+            <div class="sticky-nav-icons">
+             <img src="./assets/backward_icon.png"/>
+             <img src="./assets/forward_icon.png"/>
+            </div>
+            <div class="sticky-nav-options">
+                <button class="badge nav-item">Explore Premium</button>
+                <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                <i class="fa-regular fa-user nav-item "></i>
+            </div>
+           </div>
+          
+           <h2>Recently Played</h2>
+            <div class="cards-container">
+               <div class="card">
+                    <img src="./assets/Chuttamalle-From-Devara-Part-1.jpg" class="card-img">
+                    <p class="card-title">Chuttamalle</p>
+                    <p class="card-info">Devara-part-1 NTR , Jahnvi kapoor...</p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+               <div class="card">
+                    <img src="./assets/aaj sajaye.webp" class="card-img">
+                    <p class="card-title">Aaj Sajeya</p>
+                    <p class="card-info">Hindi Song-Bollywood</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/big dawgs.jpeg" class="card-img">
+                    <p class="card-title">Big dawgs</p>
+                    <p class="card-info">India's Rap Scene Cover-Humankind</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card4img.jpeg" class="card-img">
+                    <p class="card-title">Naa Ready</p>
+                    <p class="card-info">Vijay Thalapathy-LEO-Movie...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/Chuttamalle-From-Devara-Part-1.jpg" class="card-img">
+                    <p class="card-title">Chuttamalle</p>
+                    <p class="card-info">Devara-part-1 NTR , Jahnvi kapoor...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/Vettaiyan-Songs-Download-2024-TAmil-Vettaiyan-Masstamilan.jpg" class="card-img">
+                    <p class="card-title">Vettaiyan</p>
+                    <p class="card-info">Rajinikanth-Vettaiyan,Anirudh Music...</p>
+                </div>
+            </div>
+            <h2>Bollywood Songs</h2>
+            <div class="cards-container">
+               <div class="card">
+                    <img src="./assets/ayi ni.jpeg" class="card-img">
+                    <p class="card-title">Aayi nai</p>
+                    <p class="card-info">Aayi Nai-Stree 2,Shraddha kapoor..</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/pehle-bhi-main.jpg" class="card-img">
+                    <p class="card-title">Pehle Bhi Main</p>
+                    <p class="card-info">Animal:Pehle Bhi Main,Ranbir...</p>
+                </div>
+                <div class="card">
+                    <img src="assets/jhoome jo pathaan.jpeg" class="card-img">
+                    <p class="card-title">Jhoome Jo Pathaan</p>
+                    <p class="card-info">Jhoome Jo Pathaan , Shah Rukh Khan..</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/Mere-Mehboob-From-Vicky-Vidya-Ka-Woh-Wala-Video.jpg" class="card-img">
+                    <p class="card-title">Mere Mehboob</p>
+                    <p class="card-info">Mere-Mehboob-From-Vicky-Vidya-Ka-Woh-Wala-Video...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/brown-rang.jpeg" class="card-img">
+                    <p class="card-title">Brown Rang</p>
+                    <p class="card-info">Brown Rang - Yo YO Honey Singh</p>
+                </div>
+            </div>
+            <h2>Trending Tollywood</h2>
+            <div class="cards-container">
+               <div class="card">
+                    <img src="./assets/fear.jpeg" class="card-img">
+                    <p class="card-title">Fear Song </p>
+                    <p class="card-info">Devara-part-1 N.T.R , Jahnvikapoor..</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/ta takkara.jpeg" class="card-img">
+                    <p class="card-title">Ta Takkara Song</p>
+                    <p class="card-info">Kalki-part-1 movie song</p>
+                </div>
+                <div class="card">
+                    <img src="assets/sooseki.jpeg" class="card-img">
+                    <p class="card-title">Sooseki song</p>
+                    <p class="card-info">Pushpa-The Rule - Part 2</p> 
+                </div>    
+                <div class="card">
+                    <img src="./assets/raa macha macha.jpeg" class="card-img">
+                    <p class="card-title">Raa Macha Macha Song</p>
+                    <p class="card-info">Game Changer Movie Songs</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/thala vanchi eragade - raayan.jpeg" class="card-img">
+                    <p class="card-title">Thala Vanchi Eragade Song</p>
+                    <p class="card-info">RAAYAN Movie-Dhanush... </p>
+                </div>
+            </div>
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+               <div class="card">
+                    <img src="assets/card5img.jpeg" class="card-img">
+                    <!-- <p class="card-title">Top 50 - Global</p> -->
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card6img.jpeg" class="card-img">
+                    <!-- <p class="card-title">Top Songs - India</p> -->
+                    <p class="card-info">Your weekly updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card1img.jpeg" class="card-img">
+                    <!-- <p class="card-title">Top 50 - Global</p> -->
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/viral-50-india.jpeg" class="card-img">
+                    <!-- <p class="card-title">Top 50 - Global</p> -->
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/viral-50-global.jpg" class="card-img">
+                    <!-- <p class="card-title">Top 50 - Global</p> -->
+                    <p class="card-info">Your weekly updates of the most played...</p>
+                </div>
+            </div>
+            <h2>Shows to try</h2>
+            <div class="cards-container">
+               <div class="card">
+                    <img src="./assets/the-history-of-rome.jpeg" class="card-img">
+                    <p class="card-title">The History of Rome</p>
+                    <p class="card-info">Mike Duncan</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/lex-fridman-podcast.jpeg" class="card-img">
+                    <p class="card-title">Lex Fridman Podcast</p>
+                    <p class="card-info">Lex Fridman</p>
+                </div>
+                <div class="card">
+                    <img src="assets/sunday-suspense.jpeg" class="card-img">
+                    <p class="card-title">Sunday Suspense</p>
+                    <p class="card-info">Mirchi</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/day-break...webp" class="card-img">
+                    <p class="card-title">Day Break</p>
+                    <p class="card-info">Day Break</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/shxtsngigs.jpeg" class="card-img">
+                    <p class="card-title">ShxtsNGigs</p>
+                    <p class="card-info">ShxtsNiGigs</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line">
+                    <p class="infopara">Legal</p>
+                    <p class="infopara">Safety&PrivacyCenter</p>
+                    <p class="infopara">Privacy Policy</p>
+                    <p class="infopara">Cookies</p>
+                    <p class="infopara">About Ads</p>
+                    <p class="infopara">Accessibility</p>
+                    <p class="infoparayear">@2024SpotifyAB</p>
+                </div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <div class="song-img">
+                    <img src="./assets/Chuttamalle-From-Devara-Part-1.jpg"  class="alb-img"/>
+                </div>
+                <div class="songname">
+                    <p class="movie">Chuttamalle</p>
+                    <p class="song">Devara-part-1 NTR...</p>
+                </div>
+                <div class="add-fav">
+                    <i class="fa-solid fa-circle-plus"></i>
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-control-icon"/>
+                    <img src="./assets/player_icon2.png" class="player-control-icon"/>
+                    <img src="./assets/player_icon3.png" class="player-control-icon" style="opacity: 1;  height:2rem"/>
+                    <img src="./assets/player_icon4.png" class="player-control-icon"/>
+                    <img src="./assets/player_icon5.png" class="player-control-icon"/>
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="control-options">
+                    <i class="fa-solid fa-circle-play"></i>
+                    <i class="fa-solid fa-microphone"></i>
+                    <i class="fa-solid fa-lines-leaning"></i>
+                    <i class="fa-solid fa-house-laptop"></i>
+                    <i class="fa-solid fa-volume-high"></i>
+                    <input type="range" class="range"/>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
